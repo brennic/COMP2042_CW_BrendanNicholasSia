@@ -1,5 +1,3 @@
 Highgest Score First
 650
-500
-350
 
