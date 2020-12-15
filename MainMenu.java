@@ -54,25 +54,17 @@ public void mm(Stage primaryStage) throws Exception {
 	  		btnstart.setTranslateX(200);
 	  	    btnstart.setTranslateY(-77);
 	  	    btnstart.setOnMouseClicked(event -> { 
-	  			/*
-	  	    	primaryStage.setScene(scene);
-	  			background.start();
-	  			start();
-	  			*/
+	  	
 	  	    	start1.lvl1(primaryStage);
 	  	    });
 	  	    
 	  	//Sky level button
 	  	    Level2 start2 = new Level2();
-	  		Button btnstart2 = new Button("Sky Level");
-	  		btnstart2.setTranslateX(340);
+	  		Button btnstart2 = new Button("Mountain Level");
+	  		btnstart2.setTranslateX(330);
 	  	    btnstart2.setTranslateY(-123);
 	  	    btnstart2.setOnMouseClicked(event -> { 
-	  			/*
-	  	    	primaryStage.setScene(scene);
-	  			background.start();
-	  			start();
-	  			*/
+	  		
 	  	    	start2.lvl2(primaryStage);
 	  	    });
 	  	    

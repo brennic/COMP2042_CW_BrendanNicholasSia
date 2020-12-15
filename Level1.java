@@ -124,28 +124,18 @@ public class Level1{
 	        		stop();
 	        		background.stop();
 	        		}
-	        		/*
-	        		Alert alert = new Alert(AlertType.INFORMATION);
-	        		alert.setTitle("You Have Won The Game!");
-	        		alert.setHeaderText("Your High Score: "+animal.getPoints()+"!");
-	        		alert.setContentText("Highest Possible Score: 800\n");
-	        		alert.show();
-	        	}
-	        	*/
+	       
 	        	//Create and write "Score History" to text file
             	try {
             	    if (animal.getStop()) {
-            		File myObj = new File("D:\\Eclipse\\TryFrog1\\src\\p4_group_8_repo\\highscore.txt");
+            		File myObj = new File("RiverHighscore.txt");
             	      if (myObj.createNewFile()) {
             	        System.out.println("File created: " + myObj.getName());
             	      } else {
             	        System.out.println("File already exists.");
             	     }
-            	    FileWriter myWriter = new FileWriter("D:\\Eclipse\\TryFrog1\\src\\p4_group_8_repo\\highscore.txt", true);
+            	    FileWriter myWriter = new FileWriter("RiverHighscore.txt", true);
             	    myWriter.write("Score History: ");
-          	        /*myWriter.write("\n");
-            	    myWriter.write(""+ animal.getPoints());
-          	        myWriter.close();*/
             	    }
             	   } catch (IOException e) {
             	      System.out.println("An error occurred.");
@@ -155,7 +145,7 @@ public class Level1{
             	//Write high score to text file
             	try {
             		if (animal.getStop()) {
-            		FileWriter myWriter1 = new FileWriter("D:\\Eclipse\\TryFrog1\\src\\p4_group_8_repo\\highscore.txt", true);
+            		FileWriter myWriter1 = new FileWriter("RiverHighscore.txt", true);
             		myWriter1.write("\n");
             	    myWriter1.write(""+ animal.getPoints());
           	        myWriter1.close();
@@ -187,7 +177,7 @@ public class Level1{
 	            {
 	                //Creating BufferedReader object to read the input file
 	                 
-	                reader = new BufferedReader(new FileReader("D:\\Eclipse\\TryFrog1\\src\\p4_group_8_repo\\highscore.txt"));
+	                reader = new BufferedReader(new FileReader("RiverHighscore.txt"));
 	                 
 	                //Reading all the lines of input file one by one and adding them into ArrayList
 	                 
@@ -204,7 +194,7 @@ public class Level1{
 	                 
 	                //Creating BufferedWriter object to write into output file
 	                 
-	                writer = new BufferedWriter(new FileWriter("D:\\Eclipse\\TryFrog1\\src\\p4_group_8_repo\\highscoresorted.txt"));
+	                writer = new BufferedWriter(new FileWriter("RiverHighscoresorted.txt"));
 	                 
 	                //Writing sorted lines into output file
 	                writer.write("Highgest Score First");
@@ -249,7 +239,7 @@ public class Level1{
 	        		stop();
 	        		background.stop();
 	        		*/
-	        		reader1 = new BufferedReader(new FileReader("D:\\Eclipse\\TryFrog1\\src\\p4_group_8_repo\\highscoresorted.txt"));
+	        		reader1 = new BufferedReader(new FileReader("RiverHighscoresorted.txt"));
 	                
 	                //Reading all the lines of input file one by one and adding them into ArrayList
 	                 
@@ -261,7 +251,7 @@ public class Level1{
 	                }
 	        	Alert alert = new Alert(AlertType.INFORMATION);
 	    		alert.setTitle("You Have Won The Game!");
-	    		alert.setHeaderText("Your High Score: "+animal.getPoints()+"!");
+	    		alert.setHeaderText("Your Score: "+animal.getPoints()+"!");
 	    		alert.setContentText("Highest Possible Score: 800\n"+"Previous High Scores:\n" + lines);
 	    		alert.show();
 	        	}

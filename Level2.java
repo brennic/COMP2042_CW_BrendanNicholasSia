@@ -47,9 +47,9 @@ public class Level2 {
 		background2.add(new Log("file:src/p4_group_8_repo/cloudmove.png", 300, 0, 255, -2));
 		background2.add(new Log("file:src/p4_group_8_repo/cloudmove.png", 300, 400, 255, -2));
 		//background.add(new Log("file:src/p4_group_8_repo/logs.png", 300, 800, 276, -2));
-		background2.add(new Log("file:src/p4_group_8_repo/plane-right.png", 110, 50, 325, 0.75));
-		background2.add(new Log("file:src/p4_group_8_repo/plane-right.png", 110, 270, 325, 0.75));
-		background2.add(new Log("file:src/p4_group_8_repo/plane-right.png", 110, 465, 325, 0.75));
+		background2.add(new Log("file:src/p4_group_8_repo/superman-right.png", 125, 50, 325, 0.75));
+		background2.add(new Log("file:src/p4_group_8_repo/superman-right.png", 125, 270, 325, 0.75));
+		background2.add(new Log("file:src/p4_group_8_repo/superman-right.png", 125, 465, 325, 0.75));
 		//background.add(new Log("file:src/p4_group_8_repo/log3.png", 150, 0, 166, 0.75));
 		/*
 		background2.add(new Log("file:src/p4_group_8_repo/Birds2-right.PNG", 150, 50, 329, 1.40));
@@ -146,13 +146,13 @@ public class Level2 {
 	        	//Create and write "Score History" to text file
             	try {
             	    if (animal.getStop()) {
-            		File myObj = new File("D:\\Eclipse\\TryFrog1\\src\\p4_group_8_repo\\highscore.txt");
+            		File myObj = new File("MountainHighscore.txt");
             	      if (myObj.createNewFile()) {
             	        System.out.println("File created: " + myObj.getName());
             	      } else {
             	        System.out.println("File already exists.");
             	     }
-            	    FileWriter myWriter = new FileWriter("D:\\Eclipse\\TryFrog1\\src\\p4_group_8_repo\\highscore.txt", true);
+            	    FileWriter myWriter = new FileWriter("MountainHighscore.txt", true);
             	    myWriter.write("Score History: ");
           	        /*myWriter.write("\n");
             	    myWriter.write(""+ animal.getPoints());
@@ -166,7 +166,7 @@ public class Level2 {
             	//Write high score to text file
             	try {
             		if (animal.getStop()) {
-            		FileWriter myWriter1 = new FileWriter("D:\\Eclipse\\TryFrog1\\src\\p4_group_8_repo\\highscore.txt", true);
+            		FileWriter myWriter1 = new FileWriter("MountainHighscore.txt", true);
             		myWriter1.write("\n");
             	    myWriter1.write(""+ animal.getPoints());
           	        myWriter1.close();
@@ -198,7 +198,7 @@ public class Level2 {
 	            {
 	                //Creating BufferedReader object to read the input file
 	                 
-	                reader = new BufferedReader(new FileReader("D:\\Eclipse\\TryFrog1\\src\\p4_group_8_repo\\highscore.txt"));
+	                reader = new BufferedReader(new FileReader("MountainHighscore.txt"));
 	                 
 	                //Reading all the lines of input file one by one and adding them into ArrayList
 	                 
@@ -215,7 +215,7 @@ public class Level2 {
 	                 
 	                //Creating BufferedWriter object to write into output file
 	                 
-	                writer = new BufferedWriter(new FileWriter("D:\\Eclipse\\TryFrog1\\src\\p4_group_8_repo\\highscoresorted.txt"));
+	                writer = new BufferedWriter(new FileWriter("MountainHighscoresorted.txt"));
 	                 
 	                //Writing sorted lines into output file
 	                writer.write("Highgest Score First");
@@ -260,7 +260,7 @@ public class Level2 {
 	        		stop();
 	        		background.stop();
 	        		*/
-	        		reader1 = new BufferedReader(new FileReader("D:\\Eclipse\\TryFrog1\\src\\p4_group_8_repo\\highscoresorted.txt"));
+	        		reader1 = new BufferedReader(new FileReader("MountainHighscoresorted.txt"));
 	                
 	                //Reading all the lines of input file one by one and adding them into ArrayList
 	                 
@@ -272,7 +272,7 @@ public class Level2 {
 	                }
 	        	Alert alert = new Alert(AlertType.INFORMATION);
 	    		alert.setTitle("You Have Won The Game!");
-	    		alert.setHeaderText("Your High Score: "+animal.getPoints()+"!");
+	    		alert.setHeaderText("Your Score: "+animal.getPoints()+"!");
 	    		alert.setContentText("Highest Possible Score: 800\n"+"Previous High Scores:\n" + lines);
 	    		alert.show();
 	        	}
