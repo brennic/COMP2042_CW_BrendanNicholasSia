@@ -25,8 +25,7 @@ Please refer to this link: https://docs.google.com/document/d/1FzJ66nfsK7Efu8TGI
 
 4. A new background song has been added.
 
-## Screenshots
-River Level:
+## Screenshot River Level
 ![alt text](https://github.com/brennic/COMP2042_CW_hfybs1BrendanNicholasSia/blob/main/game1.PNG?raw=true)
-Mountain Level:
+## Screenshot Mountain Level
 ![alt text](https://github.com/brennic/COMP2042_CW_hfybs1BrendanNicholasSia/blob/main/game2.PNG?raw=true)
