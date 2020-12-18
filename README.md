@@ -4,9 +4,12 @@
 
 This is the README file for the coursework for COMP2042. The coursework involves performing maintenance on the provided JavaFx project for the game, Frogger, as well as adding extensions to improve the game.
 
+## Setup
+Please refer to this link: https://docs.google.com/document/d/1FzJ66nfsK7Efu8TGITy5bQTGK_L6QkVI3VpJEp1CcFg/edit
+
 ## Maintenance
 
-1.  Refactoring scene handlers (e.g. adding turtle in background) to a new class of its own from Main.java. Example of this can be shown through the creation of Level1.java & Level2.java. This is done for the purpose of making the Main.java more readable and to ensure the flexibility for altering the program in the future, whether its making certain variables/methods private or adding additional features, without needlessly increasing the size of the Main.java file.
+1.  Refactoring scene handlers (e.g. adding turtle in background) to a new class of its own from Main.java. Example can be shown through the creation of Level1.java & Level2.java. This is done for the purpose of making the Main.java more readable and to ensure the flexibility for altering the program in the future, whether its making certain variables/methods private or adding additional features, without needlessly increasing the size of the Main.java file.
     
 2.  The main menu code is refactored into a new class from Main.java. The new class is called MainMenu.java. The purpose of doing so is to avoid "cluttering" the Main.java file and to ensure it is readable.
     
@@ -22,8 +25,8 @@ This is the README file for the coursework for COMP2042. The coursework involves
 
 4. A new background song has been added.
 
-## Screenshot River Level
+## Screenshots
+River Level:
 ![alt text](https://github.com/brennic/COMP2042_CW_hfybs1BrendanNicholasSia/blob/main/game1.PNG?raw=true)
-
-## Screenshot Mountain Level
+Mountain Level:
 ![alt text](https://github.com/brennic/COMP2042_CW_hfybs1BrendanNicholasSia/blob/main/game2.PNG?raw=true)
