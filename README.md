@@ -1,8 +1,9 @@
+
 # # COMP2042_CW_hfybs1BrendanNicholasSia
 
 # Introduction
 
-This is the README file for the coursework for COMP2042. The coursework involves performing maintenance on the provided JavaFx project for the game, Frogger, as well as adding extensions to improve the game.
+This is the README file for the coursework for COMP2042. The coursework involves performing maintenance on the provided JavaFx project for the game, Frogger, as well as adding extensions to improve the game. To ensure best quality, please use Java JDK 14.
 
 ## Setup
 Please refer to this link: https://docs.google.com/document/d/1FzJ66nfsK7Efu8TGITy5bQTGK_L6QkVI3VpJEp1CcFg/edit
@@ -21,7 +22,7 @@ Please refer to this link: https://docs.google.com/document/d/1FzJ66nfsK7Efu8TGI
 
 2. A new level has been added alongside the original level included. The new level is called "Mountain Level". It's similar to the original level, with the difference being in the level design. In the new level, the turtle and logs have been replaced with clouds, birds and superman. The background colour has also been altered to simulate the sky to match the theme of the level, which is a mountain side. In order to achieve this, a number of files have been duplicated, namely Animal.java and End.java. The new duplicate classes are named Animal2.java and End2.java respectively. 
 
-3. A new scoring system. The program will write the latest score to the prepared .txt file at the end of the level. After doing so, the scores will be read and sorted according to highest score first and be written to another prepared .txt file. Finally, the latter file is read and the sorted score is displayed at the end of the level.
+3. A new scoring system. The program will write the latest score to the prepared .txt file at the end of the level. After doing so, the scores will be read and sorted according to highest score first and be written to another prepared .txt file. The latter file is read and the sorted score is displayed at the end of the level.
 
 4. A new background song has been added.
 
