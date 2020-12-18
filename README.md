@@ -26,5 +26,4 @@ This is the README file for the coursework for COMP2042. The coursework involves
 ![alt text](https://github.com/brennic/COMP2042_CW_hfybs1BrendanNicholasSia/blob/main/game1.PNG?raw=true)
 
 ## Screenshot Mountain Level
-Mountain Level:
 ![alt text](https://github.com/brennic/COMP2042_CW_hfybs1BrendanNicholasSia/blob/main/game2.PNG?raw=true)
