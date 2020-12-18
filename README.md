@@ -1,10 +1,8 @@
-# Screenshot of Game
-![alt text](https://raw.githubusercontent.com/hirish99/Frogger-Arcade-Game/master/arcade.png)
 # # COMP2042_CW_hfybs1BrendanNicholasSia
 
 # Introduction
 
-This is the README file for the coursework for COMP2042. The coursework involves performing maintenance on the provided JavaFX project for the game, Frogger, as well as adding extensions to improve the game.
+This is the README file for the coursework for COMP2042. The coursework involves performing maintenance on the provided JavaFx project for the game, Frogger, as well as adding extensions to improve the game.
 
 ## Maintenance
 
@@ -26,6 +24,6 @@ This is the README file for the coursework for COMP2042. The coursework involves
 
 ## Screenshots
 River Level:
-![alt text](https://github.com/brennic/COMP2042_CW_hfybs1BrendanNicholasSia/blob/master/game1.png?raw=true)
+![alt text](https://github.com/brennic/COMP2042_CW_hfybs1BrendanNicholasSia/blob/main/game1.PNG?raw=true)
 Mountain Level:
-![alt text](https://github.com/brennic/COMP2042_CW_hfybs1BrendanNicholasSia/blob/master/game2.png?raw=true)
+![alt text](https://github.com/brennic/COMP2042_CW_hfybs1BrendanNicholasSia/blob/main/game2.PNG?raw=true)
